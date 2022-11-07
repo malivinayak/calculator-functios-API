@@ -1,0 +1,26 @@
+{
+  "name": "calculator-functions",
+  "version": "1.0.0",
+  "description": "Calculator operation api",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@malivinayak"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "calculator"
+  ],
+  "author": "Vinayak Mali",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
